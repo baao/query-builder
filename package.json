@@ -1,0 +1,39 @@
+{
+  "name": "query-builder",
+  "version": "0.0.1",
+  "description": "A yet very simple orm for mysql mainly for large inserts",
+  "main": "index.js",
+  "bin": {
+    "query-builder": "QueryBuilder.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baao/query-builder.git"
+  },
+  "keywords": [
+    "orm",
+    "mysql",
+    "query",
+    "database"
+  ],
+  "author": "Michael",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/baao/query-builder/issues"
+  },
+  "homepage": "https://github.com/baao/query-builder",
+  "dependencies": {
+    "bluebird": "^2.9.34",
+    "deep-logger": "*",
+    "dotenv": "1.2.0",
+    "mysql": "2.9.0",
+    "repeat-string": "^1.5.2"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "chai": "3.2.0"
+  }
+}

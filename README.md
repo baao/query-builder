@@ -1,6 +1,14 @@
 # query-builder
 A yet simple orm, mainly made for [data2model](https://github.com/baao/data2model)
 
+## Requires 
+    
+Uses [dotenv](https://www.npmjs.com/package/dotenv) to store your credentials. You'll need a .env file in your apps root dir like:
+
+    DB_HOST=localhost
+    DB_USER=root
+    DB_PASSWORD=password
+
 ## Usage
 
      upsert(table, fields)
